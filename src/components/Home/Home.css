@@ -1,0 +1,81 @@
+.parentClass {
+  height: 88vh;
+  max-width: 100%;
+}
+
+.bannerImage {
+  background-image: url('./Homepage6.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
+.homepageText {
+  color: white;
+  position: relative;
+  top: 55vh;
+  left: 10vw;
+  font-size: 1.3rem;
+  width: 60%;
+}
+
+.Italics {
+  font-style: italic;
+}
+
+.missionSection {
+  margin: 20px 0;
+  max-width: 100%;
+  height: 88vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.missionImage {
+  height: 100%;
+}
+
+.missionText {
+  margin-left: 5%;
+}
+
+.missionText h1 {
+  color: #23f3fa;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 100px 0;
+}
+
+.missionText p {
+  width: 90%;
+}
+
+@media screen and (max-width: 960px) {
+
+  .missionSection {
+    height: 66vh;
+  }
+
+  .missionText h1 {
+    margin: 40px 0;
+  }
+
+}
+
+@media only screen and (max-width: 560px) {
+
+  .missionImage {
+    height: 80%;
+  }
+
+}
+
+@media only screen and (max-width: 450px) {
+
+  .missionImage {
+    height: 50%;
+  }
+
+}

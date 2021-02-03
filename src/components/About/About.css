@@ -1,0 +1,69 @@
+.meetTheTeam, .findUs {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+}
+
+.meetTheTeam {
+  background-color: rgb(245,245,245);
+  text-align: end;
+}
+
+.findUs {
+  text-align: start;
+  margin: 40px 0;
+}
+
+.aboutImage1, .aboutImage2 {
+  width: 30%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.aboutImage1 img, .aboutImage2 img {
+  width: 100%;
+  height: auto;
+}
+
+.meetTheTeamText, .findUsText {
+  width: 65%;
+}
+
+.findUsText {
+  margin-right: 2%;
+  margin-left: 3%;
+}
+
+.meetTheTeamText {
+  margin-left: 2%;
+  margin-right: 3%;
+}
+
+.meetTheTeamText h1, .findUsText h1 {
+  font-size: 2.5rem;
+  color: #23f3fa;
+  font-weight: 700;
+  margin-top: 15%;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 960px) {
+
+  .meetTheTeam, .findUs {
+    height: 60vh;
+  }
+
+}
+
+@media only screen and (max-width: 560px) {
+
+  .meetTheTeam, .findUs {
+    height: auto;
+  }
+
+  .meetTheTeam p {
+    padding-bottom: 20px;
+  }
+
+}

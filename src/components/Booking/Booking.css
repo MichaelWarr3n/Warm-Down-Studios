@@ -1,0 +1,73 @@
+.bookingContainer {
+  width: 100%;
+  display: flex;
+  padding: 100px 0;
+  justify-content: center;
+}
+
+.bookingTable {
+  width: 90%;
+}
+
+.bookService {
+  width: 70%;
+}
+
+.bookButton, .bookPrice {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.bookButton button {
+  border-radius:5px;
+  font-size: 20px;
+  color:#FFFFFF;
+  background-color:#4eb5f1;
+  text-align:center;
+  transition: all 0.2s;
+  width: 90%;
+  padding: 10px;
+  margin: auto 0;
+}
+
+.bookButton button:hover {
+  background-color:#4095c6;
+}
+
+.serviceDescription {
+  font-size: 14px;
+  color: grey;
+}
+
+.bookingTableHeader {
+  background-color: rgba(35,243,250,0.4);
+}
+
+.bookingTable, .bookingTableData, .bookingTableHeader {
+  border: black 1px solid;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 960px) {
+
+  .bookButton button {
+    font-size: 14px;
+    padding: 15px 10px;
+  }
+
+}
+
+@media only screen and (max-width: 560px) {
+
+  .bookButton button {
+    font-size: 10px;
+    padding: 20px 5px;
+    padding-right: 10px;
+  }
+
+}
