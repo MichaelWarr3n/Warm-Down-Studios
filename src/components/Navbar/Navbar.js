@@ -2,6 +2,8 @@ import React from 'react';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
 import { menuItems } from './MenuItems';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTimes, faBars } from '@fortawesome/free-solid-svg-icons';
 
 class Navbar extends React.Component {
   constructor(props){
@@ -38,7 +40,7 @@ class Navbar extends React.Component {
           </div>
         </Link>
         <div className="menuIcon" onClick={this.navToggleClick}>
-          <i className={this.state.click ? 'fas fa-times' : 'fas fa-bars'} />
+          <FontAwesomeIcon icon={this.state.click ? faTimes : faBars} />
         </div>
         <ul className={this.state.click ? 'navOptions activeNav' : 'navOptions'}>
           {menuItems.map((item, index) => {

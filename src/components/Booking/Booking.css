@@ -60,6 +60,10 @@
     padding: 15px 10px;
   }
 
+  .bookingContainer {
+    margin-top: 12vh;
+  }
+
 }
 
 @media only screen and (max-width: 560px) {
