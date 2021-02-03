@@ -31,7 +31,7 @@ class Navbar extends React.Component {
   render() {
     return (
       <nav className="navContainer">
-        <Link onClick={() => this.handleClick('home')} style={{ textDecoration: 'none', color: 'black' }} to='/'>
+        <Link onClick={() => this.handleClick('home')} style={{ textDecoration: 'none', color: 'black' }} to='/Warm-Down-Studios/'>
           <div className="navbarLogo">
             <h1 className="logoText">Warm Down Studio's</h1>
             <h2 className="logoSubText">Sports Massage</h2>
