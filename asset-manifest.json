@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Warm-Down-Studios/static/css/main.bf39a802.chunk.css",
-    "main.js": "/Warm-Down-Studios/static/js/main.31f074b2.chunk.js",
-    "main.js.map": "/Warm-Down-Studios/static/js/main.31f074b2.chunk.js.map",
+    "main.js": "/Warm-Down-Studios/static/js/main.5559b94e.chunk.js",
+    "main.js.map": "/Warm-Down-Studios/static/js/main.5559b94e.chunk.js.map",
     "runtime-main.js": "/Warm-Down-Studios/static/js/runtime-main.b757228b.js",
     "runtime-main.js.map": "/Warm-Down-Studios/static/js/runtime-main.b757228b.js.map",
     "static/js/2.d34af356.chunk.js": "/Warm-Down-Studios/static/js/2.d34af356.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.b757228b.js",
     "static/js/2.d34af356.chunk.js",
     "static/css/main.bf39a802.chunk.css",
-    "static/js/main.31f074b2.chunk.js"
+    "static/js/main.5559b94e.chunk.js"
   ]
 }
